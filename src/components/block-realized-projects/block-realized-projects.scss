@@ -1,0 +1,38 @@
+.block-realized-projects {
+    width: 1172px;
+    height: min-content;
+    box-sizing: border-box;
+    .BRP-title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        color: #2F2F2F;
+        width: 364px;
+        height: 162px;
+    }
+    .BRP-blocks {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 2787px;
+    }
+}
+.block-realized-project-mobile {
+    margin-top: 41px;
+    .BRP-title-mobile {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        color: #2F2F2F;
+        margin-bottom: 31px;
+    }
+    .BRP-blocks-mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 44px;
+    }
+    .smart-money-block-wrapper-mobile{
+        width: 100%;
+    }
+}

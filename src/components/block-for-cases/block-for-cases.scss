@@ -1,0 +1,258 @@
+.BFC-row {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.BFC-revers {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.BFC-title {
+    color: #6551BC;
+    font-weight: bold;
+}
+
+.BFC-sub-title {
+    font-weight: 500;
+    color: rgba(22, 20, 32, 0.5) !important;
+    a {
+        text-decoration: none;
+        color: rgba(22, 20, 32, 0.5) !important;
+    }
+}
+
+.BFC-advancements-block {
+    background: #E8E9EE;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.BFC-achievements {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.BFC-achievement {
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    font-weight: 500;
+    color: #2F2F2F;
+}
+
+.BFC-icon-and-text {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+.BFC-under-achievement-text {
+    color: rgba(47, 47, 47, 0.5);
+    text-align: center;
+    font-weight: 500;
+}
+
+.BFC-above-list-title-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.BFC-line {
+    height: 0px;
+    border: 2px solid #6551BC;
+}
+
+.BFC-above-list-title {
+    color: #2F2F2F;
+    font-weight: bold;
+}
+
+.BFC-button {
+    background: linear-gradient(84.65deg, #876FF3 -7.64%, #6551BC 145.94%);
+    box-shadow: 6px 9px 40px rgba(63, 60, 255, 0.44), -6px -6px 16px rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+    font-weight: bold;
+    display: flex;
+    color: #FFFFFF;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+}
+
+.BFC-button:active {
+    box-shadow: rgba(0, 0, 0, 0.15) 5px 5px 15px inset, rgba(255, 255, 255, 0.55) -5px -5px 15px inset, 6px 9px 40px rgba(63, 60, 255, 0.44), -6px -6px 16px rgba(255, 255, 255, 0.6);
+}
+
+.BFC-button-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px auto;
+}
+
+.BFC-arrow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.BFC-image {
+    display: flex;
+    justify-content: center;
+}
+
+.block-for-cases {
+    width: 1172px;
+    height: min-content;
+    font-style: normal;
+    .BFC-left {
+        width: 534px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        a {
+            text-decoration: none;
+        }
+        .BFC-title {
+            font-size: 34px;
+        }
+        .BFC-sub-title {
+            font-size: 16px;
+            margin-top: 17px;
+        }
+        .BFC-advancements-block {
+            height: min-content;
+            width: 454px;
+            box-shadow: inset -4px -4px 20px #FFFFFF, inset 4px 4px 20px #D1D9E6;
+            margin-top: 38px;
+            padding: 32px 35px 22px 45px;
+            .BFC-achievements {
+                .BFC-achievement {
+                    font-size: 16px;
+                    margin-bottom: 18px;
+                    .BFC-icon-and-text {
+                        margin-right: 10px;
+                    }
+                }
+            }
+            .BFC-under-achievement-text {
+                font-size: 13px;
+            }
+        }
+        .BFC-above-list-title-group {
+            width: 454px;
+            margin-top: 63px;
+            margin-bottom: 20px;
+            .BFC-line {
+                width: 35px;
+                margin-right: 22px;
+                margin-top: 19px;
+            }
+            .BFC-above-list-title {
+                font-size: 25px;
+            }
+        }
+        .element-wrapper {
+            transform: scale(0.73);
+        }
+        .BFC-button {
+            width: 218px;
+            height: 68px;
+            align-items: center;
+            font-size: 16px;
+            margin-top: 64px;
+            .BFC-button-wrapper {
+                margin: 0px auto;
+                .BFC-arrow {
+                    margin-left: 12px;
+                    margin-top: 4px;
+                }
+            }
+        }
+    }
+}
+
+.block-for-cases-mobile {
+    a {
+        text-decoration: none;
+        width: 191px;
+        height: 60px;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        font-size: 14px;
+        margin-top: 37px;
+    }
+    font-style: normal;
+    box-sizing: border-box;
+    .BFC-column-mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        .BFC-title {
+            font-size: 22px;
+        }
+        .BFC-sub-title {
+            font-size: 15px;
+            margin-top: 24px;
+        }
+        .BFC-image {
+            display: flex;
+            justify-content: center;
+        }
+        .BFC-advancements-block {
+            margin-top: 25px;
+            margin-bottom: 25px;
+            height: min-content;
+            box-shadow: inset -4px -4px 20px #FFFFFF, inset 4px 4px 20px #D1D9E6;
+            padding: 31px 20px 25px 36px;
+            .BFC-achievements {
+                .BFC-achievement {
+                    margin-bottom: 10px;
+                    .BFC-icon-and-text {
+                        font-size: 13px;
+                        margin-right: 14px;
+                    }
+                }
+            }
+            .BFC-under-achievement-text {
+                font-size: 11px;
+            }
+            .BFC-image {
+                display: flex;
+                justify-content: center;
+            }
+        }
+        .BFC-above-list-title-group {
+            margin-top: 34px;
+            justify-content: left;
+            .BFC-line {
+                width: 32px;
+                margin-top: 14px;
+                margin-right: 17px;
+            }
+            .BFC-above-list-title {
+                font-size: 20px;
+            }
+        }
+        .BFC-button {
+            width: 191px;
+            height: 60px;
+            font-size: 14px;
+            .BFC-button-wrapper {
+                .BFC-arrow {
+                    margin-left: 11px;
+                }
+            }
+        }
+    }
+}

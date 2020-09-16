@@ -1,0 +1,28 @@
+.cases-page-wrapper {
+    padding: 115px 55px;
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 1165px;
+    margin: 0 auto;
+    .CP-column {
+        .CP-block-for-cases-wrapper-up {
+            margin-top: 147px;
+            margin-bottom: 194px;
+        }
+        .CP-block-for-cases-wrapper-low {
+            margin-bottom: 105px;
+        }
+    }
+}
+.cases-page-wrapper-mobile {
+    margin-left: 15px;
+    margin-right: 15px;
+    .CP-column {
+        .CP-block-for-cases-wrapper-up {
+            margin-bottom: 55px;
+        }
+        .CP-block-for-cases-wrapper-low {
+            margin-bottom: 64px;
+        }
+    }
+}

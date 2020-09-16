@@ -1,0 +1,261 @@
+.header {
+    width: 1165px;
+    height: 52px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px auto;
+    .burger {
+        margin-top: 17px;
+    }
+    .menu {
+        height: 23px;
+        margin-top: 18px;
+        display: flex;
+        flex-direction: column;
+        .line {
+            margin-top: 11px;
+            height: 0px;
+            display: flex;
+            flex-direction: row;
+            .linePart {
+                transition-property: all;
+                transition-duration: .2s;
+            }
+            .homeFirst {
+                width: 0px;
+                border: 1px solid #6551BC;
+            }
+            .homeSecond {
+                width: 58px;
+                border: 1px solid #6551BC;
+            }
+            .homeThird {
+                width: 432px;
+                border: 1px solid rgba(101, 81, 188, 0.15);
+            }
+            .productFirst {
+                width: 98px;
+                border: 1px solid rgba(101, 81, 188, 0.15);
+            }
+            .productSecond {
+                width: 65px;
+                border: 1px solid #6551BC;
+            }
+            .productThird {
+                width: 327px;
+                border: 1px solid rgba(101, 81, 188, 0.15);
+            }
+            .promouteFirst {
+                width: 204px;
+                border: 1px solid rgba(101, 81, 188, 0.15);
+            }
+            .promouteSecond {
+                width: 112px;
+                border: 1px solid #6551BC;
+            }
+            .promouteThird {
+                width: 174px;
+                border: 1px solid rgba(101, 81, 188, 0.15);
+            }
+            .environmentFirst {
+                width: 356px;
+                border: 1px solid rgba(101, 81, 188, 0.15);
+            }
+            .environmentSecond {
+                width: 47px;
+                border: 1px solid #6551BC;
+            }
+            .environmentThird {
+                width: 87px;
+                border: 1px solid rgba(101, 81, 188, 0.15);
+            }
+            .casesFirst {
+                width: 444px;
+                border: 1px solid rgba(101, 81, 188, 0.15);
+            }
+            .casesSecond {
+                width: 46px;
+                border: 1px solid #6551BC;
+            }
+            .casesThird {
+                width: 0px;
+                border: 1px solid #6551BC;
+            }
+        }
+        .links {
+            display: flex;
+            justify-content: space-between;
+            width: 496px;
+            .link {
+                text-decoration: none;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 15px;
+                line-height: 152%;
+                color: black;
+                .currentLink {
+                    color: #6551BC;
+                }
+            }
+        }
+    }
+    .logo {
+        width: 188.5px;
+        height: 52px;
+    }
+    .linkToInvestor {
+        display: flex;
+        cursor: pointer;
+        width: 297px;
+        height: 23px;
+        margin-top: 18px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 152%;
+        color: #6551BC;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .comment {
+            width: 24px;
+            height: 24px;
+            margin-right: 1px;
+        }
+    }
+}
+
+.headerMobile {
+    position: relative;
+    z-index: 100;
+    padding: 0px 15px 0px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 13%;
+    min-height: 50px;
+    background-color: #E8E9EE;
+    .logoMobile {
+        width: 270px;
+        margin: auto 0px;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+    .burgerMobile {
+        margin: auto 0px;
+        width: 20px;
+        height: 19px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        &.mobileMenuActive {
+            justify-content: center;
+        }
+    }
+    .upBurgerLine {
+        width: 20px;
+        &.mobileMenuActive {
+            transform: translateY(0px) rotate(135deg);
+            width: 23px;
+        }
+    }
+    .midleBurgerLine {
+        width: 10px;
+        &.mobileMenuActive {
+            width: 0px;
+            height: 0px;
+            border-radius: 0px;
+        }
+    }
+    .bottonBurgerLine {
+        width: 5px;
+        &.mobileMenuActive {
+            transform: translateY(-3px) rotate(-135deg);
+            width: 23px;
+        }
+    }
+    &.menuMobileActiveHeader {
+        position: sticky;
+        top: 0;
+    }
+}
+
+.mainBurgerLines {
+    height: 3px;
+    background: #6551BC;
+    border-radius: 200px;
+    margin: 0 0 0 auto;
+    transition-property: all;
+    transition-duration: .2s;
+}
+
+.menuMobile {
+    width: 100%;
+    background-color: #6551BC;
+    height: 0px;
+    z-index: 100;
+    position: fixed;
+    transition: .4s;
+    overflow-x: hidden;
+    margin: 0 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    a {
+        text-decoration: none;
+    }
+    .mobileMenuLinks {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        .mobileMenuLink {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 152%;
+            color: #FFFFFF;
+            height: 80px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            .mobileLinkWrapper {
+                display: flex;
+                justify-content: start;
+                flex-direction: row;
+                .iconWrapper {
+                    margin-left: 22px;
+                    margin-right: 15px;
+                }
+            }
+        }
+        .menuLine {
+            height: 1px;
+            background: rgba(255, 255, 255, 0.1);
+            width: 100%;
+        }
+    }
+    .investorLink {
+        min-height: 90px;
+        max-height: 113px;
+        background: #E8E9EE;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .investorLinkText {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: center;
+            color: #6551BC;
+            width: 200px;
+            margin: 0px auto;
+        }
+    }
+}
+
+.menuMobileActive {
+    height: 87%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}

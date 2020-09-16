@@ -1,0 +1,15 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: #E8E9EE;
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 1024px) {
+    html {
+        zoom: 0.75;
+        -moz-transform: scale(0.75);
+        -moz-transform-origin: 0 0;
+    }
+}

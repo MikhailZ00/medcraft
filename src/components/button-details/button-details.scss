@@ -1,0 +1,36 @@
+.but-det {
+    width: 150px;
+    transform: rotate(-90deg);
+    margin-left: -120px;
+    cursor: pointer;
+}
+.component-button-details {
+    display: flex;
+    margin-top: -40px;
+    margin-bottom: -40px;
+    .component-button-details-text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 152%;
+        color: #000000;
+        opacity: 0.5;
+        text-decoration: none;
+    }
+    .component-button-details-arrow {
+        transform: rotate(90deg);
+        width: 40px;
+        margin-top: 4px;
+        margin-right: 13px;
+        margin-left: 15px;
+    }
+}
+.component-button-details:hover {
+    .component-button-details-arrow {
+        color: #2f2f2f;
+        opacity: 0.5;
+    }
+    .component-button-details-text {
+        color: #3b3b3b;
+    }
+}

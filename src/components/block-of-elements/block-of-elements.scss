@@ -1,0 +1,161 @@
+.block-of-elements {
+    width: 1172px;
+    height: 259px;
+    box-sizing: border-box;
+    background: #E8E9EE;
+    box-shadow: -7px -7px 20px #FFFFFF, 7px 7px 20px rgba(101, 81, 188, 0.15);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-style: normal;
+    font-weight: 500;
+    .BOE-left {
+        height: 143px;
+        box-sizing: border-box;
+        margin: 58px 0px 58px 66px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .BOE-title {
+            height: 55px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .BOE-title-text {
+                font-weight: bold;
+                font-size: 20px;
+                color: #6551BC;
+            }
+            .BOE-sub-title-text {
+                font-size: 14px;
+                color: rgba(22, 20, 32, 0.5);
+            }
+        }
+        .BOE-elements-wrapper {
+            position: relative;
+            z-index: 2;
+            display: flex;
+            flex-direction: row;
+            margin-left: -11px;
+            justify-content: left;
+            .BOE-elements-array {
+                margin-right: 4px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                .element-wrapper {
+                    transform: scale(0.71);
+                }
+            }
+        }
+    }
+    .BOE-right-wrapper {
+        width: 340px;
+        height: 150px;
+        box-sizing: border-box;
+        margin: 62px 34px 47px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        .BOE-right {
+            width: 340px;
+            height: 150px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .BOE-achievements {
+                display: flex;
+                justify-content: start;
+                flex-direction: column;
+                font-size: 16px;
+                color: #2F2F2F;
+                .BOE-achievement {
+                    display: flex;
+                    justify-content: start;
+                    flex-direction: row;
+                    margin-bottom: 15px;
+                }
+            }
+            .BOE-under-achievement-text {
+                font-size: 13px;
+                color: rgba(47, 47, 47, 0.5);
+                text-align: left;
+                margin-left: 36px;
+            }
+        }
+    }
+}
+
+.block-of-elements-mobile {
+    margin-bottom: 23px;
+    background: #E8E9EE;
+    box-shadow: -7px -7px 20px #FFFFFF, 7px 7px 20px rgba(101, 81, 188, 0.15);
+    border-radius: 10px;
+    padding: 34px 34px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: 500;
+    .BOE-title-mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        height: min-content;
+        .BOE-title-text-mobile {
+            font-weight: bold;
+            font-size: 16px;
+            color: #6551BC;
+            margin-bottom: 6px;
+        }
+        .BOE-sub-title-text-mobile {
+            font-size: 12px;
+            color: rgba(22, 20, 32, 0.5);
+        }
+    }
+    .BOE-elements-wrapper-mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 15px;
+        .BOE-elements-array-mobile {
+            display: flex;
+            flex-direction: row;
+            justify-content: start;
+            width: 277px;
+            flex-wrap: wrap;
+            .chemical-element-wrapper-mobile {
+                margin-right: 13px;
+            }
+        }
+    }
+    .BOE-achievements-mobile {
+        font-size: 13px;
+        color: #2F2F2F;
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+        .BOE-achievement-mobile {
+            display: flex;
+            flex-direction: row;
+            justify-content: start;
+            margin-top: 5px;
+        }
+    }
+    .BOE-under-achievement-text-mobile {
+        font-size: 11px;
+        color: rgba(47, 47, 47, 0.5);
+        text-align: center;
+        margin-top: 24px;
+    }
+}
+
+.BOE-icon {
+    margin-right: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

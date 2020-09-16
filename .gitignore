@@ -1,0 +1,5 @@
+node_modules/
+out/*
+.idea/*
+!out/index.html
+!out/images/*

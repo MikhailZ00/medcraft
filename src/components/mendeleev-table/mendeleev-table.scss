@@ -1,0 +1,106 @@
+.mendeleev-table {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    .MT-title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 125%;
+        color: #161420;
+        margin-bottom: 46px;
+    }
+    .MT-table-and-buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: relative;
+        box-sizing: border-box;
+        .MT-buttons {
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            margin-top: 10px;
+            .MT-button {
+                margin-bottom: 22px;
+            }
+        }
+        .MT-table {
+            display: flex;
+            flex-direction: row;
+            margin-left: 60px;
+            justify-content: start;
+            .MT-table-line {
+                display: flex;
+                flex-direction: row;
+                justify-content: start;
+                margin-bottom: 23px;
+                .MT-empty-chemical-element {
+                    width: 58px;
+                    height: 58px;
+                    margin-right: 20px;
+                }
+                .chemical-element-wrapper {
+                    margin-right: 20px;
+                }
+            }
+        }
+    }
+}
+.mendeleev-table-mobile {
+    margin-top: 75px;
+    .MT-title-mobile {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 125%;
+        color: #161420;
+        margin-bottom: 30px;
+    }
+    .MT-table-line-mobile {
+        margin-top: 39px;
+        margin-bottom: 47px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: start;
+        .MT-empty-chemical-element {
+            display: none;
+            height: 0px;
+            width: 0px;
+        }
+        .chemical-element-wrapper-mobile {
+            margin-right: 17px;
+            width: 52px;
+            height: 52px;
+            .element-mobile {
+                width: 52px;
+                height: 52px;
+                .element-letters-mobile {
+                    top: 8px;
+                }
+            }
+        }
+    }
+}
+
+.MT-table:after {
+    content: "";
+    position: absolute;
+    left: 45%; 
+    width: 35%;
+    height: 120%;
+    top: -95%;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(232, 233, 238, 0.7) 0%, rgba(255, 255, 255, 0) 100%) no-repeat;
+    background-size: 2em 100%;
+    transform: skewX(-45deg);
+    pointer-events: none;
+}
+.triggerLight {
+    .MT-table:after {
+        transition: 1s linear;
+        top: 50%;
+        background-position: 100% 0%;
+        pointer-events: none;
+    }
+}

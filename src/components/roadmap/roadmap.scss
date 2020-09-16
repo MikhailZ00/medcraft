@@ -1,0 +1,246 @@
+.component-roadmap-mainBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1172px;
+}
+
+.component-roadmap-mainBox-textBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.component-roadmap-mainBox-textBox-first {
+    width: 550px;
+    height: 457px;
+}
+
+.component-roadmap-mainBox-textBox-third {
+    width: 550px;
+    height: 504px;
+}
+
+.component-roadmap-mainBox-textBox-content-first {
+    height: 280px;
+}
+
+.component-roadmap-mainBox-textBox-content-third {
+    height: 329px;
+}
+
+.component-roadmap-mainBox-textBox-content-title {
+    height: 100px;
+    width: 600px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 100px;
+    display: flex;
+    align-items: center;
+    color: rgba(22, 20, 32, 0.05);
+    margin-left: -4px;
+}
+
+.component-roadmap-mainBox-textBox-content-title-first {
+    font-size: 67px;
+}
+
+.component-roadmap-mainBox-textBox-content-title-third {
+    font-size: 60px;
+}
+
+.component-roadmap-mainBox-textBox-content-question {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    color: #2f2f2f;
+    display: flex;
+    align-items: center;
+}
+
+.component-roadmap-mainBox-textBox-content-question-first {
+    height: 53px;
+    width: 571px;
+}
+
+.component-roadmap-mainBox-textBox-content-question-third {
+    width: 500px;
+    height: 99px;
+}
+
+.component-roadmap-mainBox-textBox-content-description{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 152%;
+    display: flex;
+    align-items: center;
+    color: rgba(22, 20, 32, 0.7);
+}
+
+.component-roadmap-mainBox-textBox-content-description-first {
+    height: 130px;
+    margin-right: 28px;
+}
+
+.component-roadmap-mainBox-textBox-content-description-third {
+    height: 120px;
+    width: 510px;
+}
+
+.component-roadmap-mainBox-textBox-panel {
+    width: min-content;
+    height: 142px;
+    background: #e8e9ee;
+    box-shadow: -7px -7px 20px #ffffff, 7px 7px 20px rgba(101, 81, 188, 0.15);
+    border-radius: 10px;
+    padding: 23px 41px 25px 43px;
+    box-sizing: border-box;
+}
+
+.component-roadmap-mainBox-textBox-panel-content {
+    width: 240px;
+    height: 94px;
+}
+
+.component-roadmap-mainBox-textBox-panel-content-panelTextFirst {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 152%;
+    color: #161420;
+}
+
+.component-roadmap-mainBox-textBox-panel-content-panelPurpleText {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 152%;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    color: #6551bc;
+}
+
+.component-roadmap-mainBox-textBox-panel-content-panelTextSecond {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 152%;
+    color: #161420;
+}
+
+.component-roadmap-mainBox-image-first {
+    margin-left: -34px;
+    margin-top: 29px;
+}
+
+.component-roadmap-mainBox-image-third {
+    margin-top: 29px;
+}
+
+.component-roadmap-mainBox-image-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.component-roadmap-mainBox-image-left {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.mobile-component-roadmap-mainBox {
+    height: 483px;
+}
+
+.mobile-component-roadmap-mainBox-textBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mobile-component-roadmap-mainBox-textBox-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile-component-roadmap-mainBox-textBox-content-third {
+    height: 189px;
+    width: 190px;
+}
+
+.mobile-component-roadmap-mainBox-textBox-content-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    color: rgba(22, 20, 32, 0.05);
+    display: flex;
+    align-items: center;
+    margin-left: -3px;
+}
+
+.mobile-component-roadmap-mainBox-textBox-content-title-first {
+    width: 169px;
+    height: 60px;
+    line-height: 107%;
+}
+
+.mobile-component-roadmap-mainBox-textBox-content-title-third {
+    width: 190px;
+    height: 60px;
+    line-height: 95%;
+    white-space: pre-line;
+}
+
+.mobile-component-roadmap-mainBox-textBox-content-question {
+    height: min-content;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 120%;
+    color: #2f2f2f;
+    white-space: pre-wrap;
+}
+
+.mobile-component-roadmap-mainBox-textBox-content-question-first {
+    width: 180px;
+    margin-top: 7px;
+}
+
+.mobile-component-roadmap-mainBox-textBox-content-question-third {
+    width: 240px;
+    height: 120px;
+    margin-top: 10px;
+}
+
+.mobile-component-roadmap-mainBox-textBox-content-description {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 145%;
+    display: flex;
+    align-items: center;
+    color: rgba(22, 20, 32, 0.7);
+}
+
+.mobile-component-roadmap-mainBox-textBox-content-description-first {
+    margin-top: 10px;
+}
+
+.mobile-component-roadmap-mainBox-textBox-content-description-third {
+    margin-top: 0px;
+}
+
+.mobile-component-roadmap-mainBox-textBox-panel {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    height: 142px;
+    background: #e8e9ee;
+    box-shadow: -7px -7px 20px #ffffff, 7px 7px 20px rgba(101, 81, 188, 0.15);
+    border-radius: 10px;
+    padding: 23px 41px 25px 43px;
+    box-sizing: border-box;
+}

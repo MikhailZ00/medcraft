@@ -1,0 +1,140 @@
+.BA-main-box {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.BA-revers-direction {
+    flex-direction: row;
+}
+
+.textBox {
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    color: #161420;
+}
+
+.icon-text {
+    justify-content: left;
+    align-items: center;
+    display: flex;
+}
+
+.icon-text svg {
+    margin-bottom: 7px;
+    margin-right: 25px;
+}
+
+.BA-title {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    margin-bottom: 20px;
+}
+
+.extraTitle {
+    width: 571px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    color: rgba(57, 0, 221, 0.6);
+}
+
+.descriptionFirstParagraph,
+.descriptionSecondParagraph {
+    width: 571px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #161420;
+    margin-bottom: 10px;
+}
+
+.descriptionSecondParagraph {
+    margin-bottom: 30px;
+}
+
+.purpleDescription {
+    color: rgba(57, 0, 221, 0.6);
+}
+.image {
+    margin-left: 45px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.mainMobileBox {
+    color: #161420;
+}
+
+.titleMob {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 33px;
+    margin-bottom: 11px;
+}
+
+.descriptionMob {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 152%;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.buttons {
+    width: 345px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.buttonTextMobile {
+    font-family: Montserrat;
+    width: 151px;
+    height: 52px;
+    background: linear-gradient(85.15deg, #876ff3 -7.64%, #6551bc 145.94%);
+    box-shadow: 6px 9px 25px rgba(63, 60, 255, 0.35), -6px -9px 25px #ffffff;
+    border-radius: 8px;
+    border-color: white;
+    border-width: 0px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.coffeeBox {
+    margin-left: 27px;
+    display: flex;
+    margin-top: 9px;
+    height: 34px;
+    flex-direction: row;
+    color: #6551bc;
+}
+
+.linkCoffee {
+    width: 126px;
+    height: 34px;
+    margin-left: 11px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 17px;
+    color: #6551bc;
+}
+
+.imageMobile {
+    display: flex;
+    justify-content: center;
+    left: 24px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}

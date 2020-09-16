@@ -1,0 +1,122 @@
+.main-page-wrapper {
+    margin-top: 85px;
+    max-width: 1195px;
+    padding: 115px 0px 0px 0px;
+    max-width: 1165px;
+    margin: 0 auto;
+    .pages-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: auto 0px;
+    }
+}
+
+.MP-low-block {
+    padding-top: 0px;
+}
+
+.main-page-wrapper-mobile {
+    margin-left: 15px;
+    margin-right: 15px;
+    .mobile-pages-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+.MP-first-line {
+    height: 1px;
+    width: 100%;
+    margin-bottom: 150px;
+}
+
+.MP-second-line {
+    width: 100%;
+    height: 1px;
+    margin-bottom: 180px;
+}
+
+.MP-third-line {
+    width: 100%;
+    height: 1px;
+    margin-bottom: 160px;
+}
+
+.MP-fourth-line {
+    width: 100%;
+    height: 1px;
+    margin-bottom: 160px;
+}
+
+.pages-main-benifit {
+    margin-top: 40px;
+}
+
+.mobile-pages-main-benifit {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.smart-money-block-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 145px;
+}
+
+.main-page-roadmap {
+    .main-page-roadmap-title {
+        width: 479px;
+        height: 161px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 125%;
+        color: #2f2f2f;
+    }
+    .main-page-roadmap-idea {
+        margin-top: 56px;
+    }
+    .main-page-roadmap-createmvp {
+        margin-top: 98px;
+    }
+    .main-page-roadmap-firstsales {
+        margin-top: 99px;
+    }
+    .main-page-roadmap-scaling {
+        margin-top: 100px;
+    }
+}
+
+.mobile-main-page-roadmap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .mobile-main-page-roadmap-title {
+        width: calc(100% - 30px);
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 125%;
+        color: #2f2f2f;
+    }
+    .main-page-roadmap-idea {
+        font-size: 52px;
+    }
+    .main-page-roadmap-scaling {
+        margin-top: 43px;
+    }
+}
+
+.mobile-main-page-component-startup {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.main-page-component-startup {
+    margin-bottom: 130px;
+}

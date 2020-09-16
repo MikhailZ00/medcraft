@@ -1,0 +1,114 @@
+.mainBoxSmartmoney {
+    display: flex;
+    flex-direction: row;
+    width: 1215px;
+    box-sizing: border-box;
+}
+
+.imageBoxSmartmoney {
+    width: 518px;
+    height: 498px;
+    margin-left: -61px;
+}
+
+.imageCircleSmartmoney {
+    width: 518px;
+    height: 518px;
+    z-index: 1;
+}
+
+.imageBoxStartUpSmartMoney {
+    z-index: 2;
+    margin-left: -322px;
+    margin-top: 196px;
+    margin-right: 200px;
+}
+
+.imageStartUpSmartmoney {
+    width: 135px;
+    height: 135px;
+}
+
+.textBoxSmartmoney {
+    display: flex;
+    width: 770px;
+    height: 320px;
+    flex-direction: column;
+    margin-top: 89px;
+}
+
+.titleSmartmoney {
+    width: 504px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    color: #2F2F2F;
+    margin-bottom: 25px;
+}
+
+.descriptionSmartmoney {
+    height: 224px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #2F2F2F;
+}
+
+.greenTextSmartmoney {
+    color: #01E4D0;
+}
+
+.yellowTextSmartmoney {
+    color: #F6BF03;
+}
+
+.orangeTextSmartmoney {
+    color: #E6660A;
+}
+
+.purpleTextSmartmoney {
+    color: #7D64ED;
+}
+
+.mainBoxMobileSmartmoney {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titleMobileSmartmoney {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    color: #2F2F2F;
+    width: 100%;
+}
+
+.descriptionMobileSmartmoney {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #2F2F2F;
+    margin-top: 15px;
+}
+
+.imageCircleMobileSmartmoney {
+    width: 265px;
+    height: 265px;
+}
+
+.imageBoxStartUpSmartMoneyMobile {
+    z-index: 2;
+    margin-top: -167px;
+    margin-left: 5px;
+}
+
+.imageStartUpSmartmoneyMobile {
+    width: 73px;
+    height: 73px;
+}

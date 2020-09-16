@@ -1,0 +1,157 @@
+.mainBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.textBox {
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    color: #161420;
+    width: min-content;
+}
+
+.MB-title {
+    width: 585px;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    margin-bottom: 20px;
+    color: #2f2f2f;
+}
+
+.extraTitle {
+    width: 571px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    color: rgba(57, 0, 221, 0.6);
+}
+
+.descriptionFirstParagraph,
+.descriptionSecondParagraph {
+    width: 571px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #161420;
+    margin-bottom: 10px;
+}
+
+.descriptionSecondParagraph {
+    margin-bottom: 30px;
+}
+
+.purpleDescription {
+    color: rgba(57, 0, 221, 0.6);
+}
+
+.buttonText {
+    width: 187px;
+    height: 64px;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    background: linear-gradient(85.12deg, #876ff3 -7.64%, #6551bc 145.94%);
+    box-shadow: 6px 9px 40px rgba(63, 60, 255, 0.44), -6px -6px 16px rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+    border-color: white;
+    border-width: 0px;
+    cursor: pointer;
+}
+
+.buttonText:active {
+    box-shadow: rgba(0, 0, 0, 0.15) 5px 5px 15px inset, rgba(255, 255, 255, 0.55) -5px -5px 15px inset, 6px 9px 40px rgba(63, 60, 255, 0.44), -6px -6px 16px rgba(255, 255, 255, 0.6);
+}
+
+.image {
+    margin-left: 45px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.mainMobileBox {
+    color: #161420;
+}
+
+.titleMob {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 33px;
+    margin-bottom: 11px;
+}
+
+.descriptionMob {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 152%;
+    color: #000000;
+    margin-bottom: 25px;
+    width: calc(100% - 30px);
+}
+
+.MB-buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.buttonTextMobile {
+    width: 151px;
+    height: 52px;
+    background: linear-gradient(85.15deg, #876ff3 -7.64%, #6551bc 145.94%);
+    box-shadow: 6px 9px 25px rgba(63, 60, 255, 0.35), -6px -9px 25px #ffffff;
+    border-radius: 8px;
+    border-color: white;
+    border-width: 0px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.coffeeBox {
+    margin-left: 27px;
+    display: flex;
+    margin-top: 9px;
+    height: 34px;
+    flex-direction: row;
+    color: #6551bc;
+}
+
+.linkCoffee {
+    width: 126px;
+    height: 34px;
+    margin-left: 11px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 134%;
+    color: #6551bc;
+}
+
+.imageMobile {
+    display: flex;
+    justify-content: center;
+}
+
+.purpleDescriptionMob {
+    color: #6551bc;
+}
+
+.coffeeLogo {
+    display: flex;
+    align-items: center;
+}
+
+.coffeeLogo {
+    display: flex;
+    align-items: center;
+}

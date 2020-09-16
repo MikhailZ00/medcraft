@@ -1,0 +1,163 @@
+.chemical-element-wrapper {
+    font-weight: bold;
+    color: #FFFFFF;
+    width: 58px;
+    height: 58px;
+    box-sizing: border-box;
+    position: relative;
+    .element-wrapper {
+        height: min-content;
+        width: min-content;
+        .element {
+            width: 58px;
+            height: 58px;
+            border-radius: 10px;
+            box-sizing: border-box;
+            cursor: pointer;
+            .element-number {
+                font-size: 11px;
+                position: relative;
+                left: 5px;
+                top: 5px;
+            }
+            .element-letters {
+                position: relative;
+                width: 100%;
+                top: 6px;
+                font-size: 18px;
+                text-align: center;
+            }
+            .polygon {
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                left: 50%;
+                margin-left: -10px;
+                bottom: 50%;
+                margin-bottom: -10px;
+                transition: bottom .5s;
+                z-index: -1;
+                opacity: .99;
+            }
+            .transform-active-polygon-bottom {
+                transform: rotate(135deg);
+            }
+            .transform-active-polygon-top {
+                transform: rotate(-45deg);
+            }
+            .active-polygon-bottom {
+                bottom: 0;
+            }
+            .active-polygon-top {
+                bottom: 100%;
+            }
+        }
+    }
+    .popup {
+        position: absolute;
+        z-index: 10;
+        margin-left: -156px;
+        padding: 23px 37px;
+        box-sizing: border-box;
+        color: rgba(22, 20, 32, 0.7);
+        border-radius: 10px;
+        width: 312px;
+        height: min-content;
+        background-color: #E8E9EE;
+        transition: all;
+        transition-duration: .5s;
+        opacity: 0;
+        visibility: hidden;
+        left: 50%;
+        box-shadow: -7px -7px 20px #FFFFFF, 7px 7px 25px rgba(0, 205, 196, 0.15);
+        .element-title {
+            font-size: 13px;
+            height: min-content;
+        }
+        .element-text {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            height: min-content;
+        }
+    }
+    .popup-top {
+        bottom: 100%;
+        margin-bottom: 20px;
+    }
+    .popup-bottom {
+        top: 100%;
+        margin-top: 20px;
+    }
+    .active-popup {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+.chemical-element-wrapper-mobile {
+    font-weight: bold;
+    color: #FFFFFF;
+    width: 41px;
+    height: 41px;
+    box-sizing: border-box;
+    position: relative;
+    .popup-mobile-wrapper-v {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 100;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        overflow: hidden;
+        .popup-mobile-wrapper-h {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            overflow: hidden;
+            .popup-mobile {
+                margin-left: 15px;
+                margin-right: 15px;
+                height: min-content;
+                background: #E8E9EE;
+                box-shadow: -7px -7px 20px #FFFFFF, 7px 7px 25px rgba(0, 205, 196, 0.2), 0px 0px 0px 2000px rgba(0, 0, 0, 0.5);
+                border-radius: 10px;
+                padding: 23px 25px 22px 37px;
+                .element-title-mobile {
+                    font-size: 13px;
+                    line-height: 152%;
+                    color: rgba(22, 20, 32, 0.7);
+                    margin-bottom: 6px;
+                }
+                .element-text-mobile {
+                    font-weight: 500;
+                    font-size: 12px;
+                    line-height: 152%;
+                    color: rgba(22, 20, 32, 0.7);
+                }
+            }
+        }
+    }
+    .element-mobile {
+        width: 41px;
+        height: 41px;
+        box-sizing: border-box;
+        border-radius: 10px;
+        .element-number-mobile {
+            font-size: 8px;
+            position: relative;
+            left: 6px;
+            top: 6px;
+        }
+        .element-letters-mobile {
+            position: relative;
+            width: 100%;
+            top: 5px;
+            font-size: 14px;
+            text-align: center;
+        }
+    }
+}
